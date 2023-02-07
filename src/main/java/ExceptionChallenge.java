@@ -21,5 +21,7 @@ public class ExceptionChallenge {
      * Check out this guide on throwing exceptions: https://rollbar.com/guides/java/how-to-throw-exceptions-in-java/#
      */
     public void mustThrow(){
+        // Quick to throw, an arithmetic exception
+        int patient = 1 / 0;
     }
 }
